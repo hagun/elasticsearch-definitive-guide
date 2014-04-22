@@ -9,17 +9,13 @@ Elasticsearch는 분산된 확장가능한 실시간 검색/분석 엔진입니�
 가능하게하고, 때로는 당신이 프로젝트의 시작시에는 기대하지 않았던것을 가능하게 합니다. 이것은 또한
 하드디스크에 들어있는 쓸모없는 raw 데이터를 위해 존재합니다.
 
-Whether you need full text search, real-time analytics of structured data, or
-a combination of the two, this book will introduce you to the fundamental
-concepts required to start working with Elasticsearch at a basic level. With
-these foundations laid, it will move on to more advanced search techniques
-which you will need to shape the search experience to fit your requirements.
+당신이 자연어 검색(full text search)를 원하던 구조화된 데이터의 실시간 분석을 원하던 혹은 두가지 모두를
+원하던, 이 책은 기본적인 Elasticsearch를 시작하는데 요구되는 기본적인 개념을 안내합니다. 기본개념을
+소개한 뒤에, 요구사항을 해결하기 위해 마주치게되는 복잡한 검색 기능들을 소개합니다.
 
-Elasticsearch is not just about full text search. We explain structured
-search, analytics, query percolation, geolocation and autocomplete or _did-
-you-mean_ suggesters. We will also discuss how best to model your data to take
-advantage of the horizontal scalability of Elasticsearch, and how to configure
-and monitor your cluster when moving to production.
+Elasticsearch는 단순한 자연어 검색 엔진이 아닙니다. 구조화된 검색, 분석, 쿼리 XXX
+(query percolation), 위치정보와 자동완성, 추천(Suggest)의 사용법에 대해 설명합니다.
+또한 Elasticsearch의 수평적 확장과 실서비스 단계로 넘어갈때의 설정과 모니터링에 대해서도 설명합니다.
 
 === Who should read this book
 
